@@ -107,11 +107,13 @@ const Navbar = () => {
                     ":active": {
                       color: "white",
                       textDecoration: "underline",
+                      fontWeight: "bold",
                     },
                     ":hover": {
                       background: "none",
                       textDecoration: "underline",
                       color: "white",
+                      fontWeight: "bold",
                     },
                   }}
                   size="medium"
