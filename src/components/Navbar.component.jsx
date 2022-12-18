@@ -46,7 +46,10 @@ const Navbar = () => {
   };
   return (
     <>
-      <AppBar position="static" sx={{ background: "#1F1F24" }}>
+      <AppBar
+        position="static"
+        sx={{ background: "#1F1F24", borderBottom: "1px solid #484852" }}
+      >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Button variant="text" sx={{ ":hover": { background: "none" } }}>

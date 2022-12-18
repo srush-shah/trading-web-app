@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar.component";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import Card from "./components/Card.component";
+import CoinCard from "./components/CoinCard.component";
 
 const darkTheme = createTheme({
   palette: {
@@ -13,7 +13,7 @@ function App() {
     <>
       <ThemeProvider theme={darkTheme}>
         <Navbar />
-        <Card />
+        <CoinCard />
       </ThemeProvider>
     </>
   );
