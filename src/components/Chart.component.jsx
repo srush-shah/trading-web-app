@@ -1,6 +1,7 @@
-import { createChart, CrosshairMode } from "lightweight-charts";
 import React, { useEffect, useRef } from "react";
+import { createChart, CrosshairMode } from "lightweight-charts";
 
+//Data
 import { data } from "../priceData";
 
 const Chart = () => {
