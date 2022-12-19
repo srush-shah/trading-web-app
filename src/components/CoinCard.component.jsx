@@ -12,10 +12,9 @@ const CoinCard = () => {
   useEffect(() => {
     const wss = new WebSocket("wss://fstream.binance.com/ws/ethusdt@markPrice");
     wss.onmessage = (message) => {
-      console.log(JSON.parse(message.data));
       setData(JSON.parse(message.data));
     };
-  });
+  }, []);
   return (
     <>
       <Card sx={{ background: "#1F1F24", borderRadius: 0 }}>
